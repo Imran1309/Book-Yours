@@ -6,7 +6,7 @@ import Footer from './components/layout/Footer'
 import Details from './pages/Details'
 import ForgotPassword from './pages/ForgotPassword'
 import VerifyCode from './pages/VerifyCode'
-import Signup from './pages/singup'
+import Signup from './components/auth/SingupForm'
 
 
 function App() {
@@ -25,6 +25,8 @@ function App() {
               <Route path='/verifycode' element={<VerifyCode />}/>
               <Route path='/forgotpassword' element={<ForgotPassword/>}/>
               <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+
             </Routes>
           </main>
           {/* <Footer /> */}
