@@ -22,14 +22,17 @@ const Signup = () => {
         </div>
       </div>
 
-      {/* Right - Image */}
-      <div className="flex-1 hidden md:block">
+      
+      <div className='w-full max-w-md p-6'>
         <img
           src={cameraImage}
           alt="camera"
-          className="w-full h-full object-cover rounded-l-xl"
-        />
-      </div>
+          className="w-full h-full object-cover rounded-l-xl"/>
+        
+
+        
+        </div>
+        
     </div>
   );
 };

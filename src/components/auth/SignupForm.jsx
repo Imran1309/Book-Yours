@@ -69,6 +69,7 @@ const SignupForm = () => {
 
       <button className="w-full flex justify-center items-center bg-white text-black py-2 rounded">
         <img src="./assets/google-icon.png" alt="google icon" className="h-[20px] m-0"/>
+        
         Sign in with Google
       </button>
     </form>
