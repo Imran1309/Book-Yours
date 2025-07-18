@@ -1,11 +1,11 @@
 import React from "react";
 import SignupForm from "../components/auth/SignupForm";
-import cameraImage from "../assets/loginart.jpg"; // Make sure this image is imported
+import cameraImage from "../assets/loginart.jpg"; 
 
 const Signup = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-black text-white">
-      {/* Left - Signup Form */}
+      
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="w-full max-w-md">
           <h2 className="text-3xl font-bold mb-6">SIGN UP</h2>
