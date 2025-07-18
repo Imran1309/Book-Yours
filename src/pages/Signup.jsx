@@ -22,12 +22,13 @@ const Signup = () => {
         </div>
       </div>
 
-      
-      <div className='w-full max-w-md p-6'>
+      <div className="flex"></div>
+      <div className='w-1/2'>
+      <div className="w-[1000px] p-8"></div>
         <img
           src={cameraImage}
           alt="camera"
-          className="w-full h-full object-cover rounded-l-xl"/>
+          className="w-[500px] h-[50px]object-cover rounded-md shadow-lg"/>
         
 
         
