@@ -4,37 +4,26 @@ import cameraImage from "../assets/loginart.jpg";
 
 const Signup = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row bg-black text-white">
-      
-      <div className="flex-1 flex items-center justify-center p-8">
-        <div className="w-full max-w-md">
-          <h2 className="text-3xl font-bold mb-6">SIGN UP</h2>
+
+    
+      <div className='flex gap-0 justify-center items-center h-full min-h-full w-full'>
+        
+        <div className='w-full max-w-md  p-6 rounded-lg h-[100%] relative'>
+          </div>
+        
+    
           <SignupForm />
-          <p className="text-center text-sm mt-6">
-            Already have an account?{" "}
-            <a href="/login" className="text-yellow-500 hover:underline">
-              Login
-            </a>
-          </p>
-          <footer className="text-xs text-center mt-8 text-gray-500">
-            © 2025 ALL RIGHTS RESERVED
-          </footer>
+          
+          
+          <div className='w-full max-w-md p-6'>
+          <img src="./assets/loginart.jpg" alt="login" className='rounded-xl'/>
         </div>
-      </div>
-
-      <div className="flex"></div>
-      <div className='w-1/2'>
-      <div className="w-[1000px] p-8"></div>
-        <img
-          src={cameraImage}
-          alt="camera"
-          className="w-[500px] h-[50px]object-cover rounded-md shadow-lg"/>
-        
-
-        
+          
         </div>
         
-    </div>
+      
+
+     
   );
 };
 

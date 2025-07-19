@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from '../layout/Footer';
 
 const SignupForm = () => {
   const [form, setForm] = useState({ email: "", password: "", confirmPassword: "" });
@@ -17,6 +18,7 @@ const SignupForm = () => {
   };
 
   return (
+    
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
         <label>Email</label>
@@ -50,7 +52,8 @@ const SignupForm = () => {
           placeholder="repeat password"
           value={form.confirmPassword}
           onChange={handleChange}
-          className="w-full p-3 rounded bg-white text-black placeholder-gray-400"
+          className="mt-1 block w-full px-3 py-2 text-[#8897AD] bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#B3995E] focus:border-transparent"
+              
           required
         />
       </div>
@@ -72,6 +75,17 @@ const SignupForm = () => {
         
         Sign in with Google
       </button>
+      <p className="text-center text-sm mt-6">
+            Already have an account?{" already have a account? "}
+            <p className="text-white text-center">
+            <a href="/login" className="text-yellow-500 hover:underline">
+              Login
+            </a>
+            </p>
+          </p>
+          <footer className="text-xs text-center mt-8 text-gray-500">
+            © 2025 ALL RIGHTS RESERVED
+          </footer>
     </form>
   );
 };
